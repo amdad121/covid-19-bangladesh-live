@@ -1,5 +1,5 @@
 === Corona Bangladesh Live ===
-Donate link: https://fastaar.com/donate
+Donate link: https://corona.in.com.bd
 Contributors: amdad121
 Tags: covid-19, corona, corona Bangladesh, covid-19 BD, Corona Bangladesh Live
 Requires at least: 4.6
@@ -23,13 +23,13 @@ If this any modification require and if you face any problem please contact with
 ## API - 01
 This is our own API service provider. we have provide our manual input data to public under GNU GENERAL PUBLIC LICENSE.
 
-API: http://corona-bd-live.herokuapp.com/api
+API: https://corona.in.com.bd/api
 
-License: http://corona-bd-live.herokuapp.com/api/license
+License: https://corona.in.com.bd/api/license
 
-Endpoint: http://corona-bd-live.herokuapp.com
+Endpoint: https://corona.in.com.bd
 
-Privacy policy: http://corona-bd-live.herokuapp.com/api/privacy_policy
+Privacy policy: https://corona.in.com.bd/api/privacy_policy
 
 ## API - 02
 We have used another API which is "covid19api - A free API for data on the Coronavirus".
@@ -72,6 +72,11 @@ You will get Bangladesh all update of Coronavirous.
 3. This screen shot for World.
 
 == Changelog ==
+= 1.3.0 =
+* API Changes.
+* CSS Fixed.
+* Bug fixed.
+
 = 1.2.1 =
 * Shortcode updated
 

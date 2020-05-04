@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:       Corona Bangladesh Live
- * Plugin URI:        http://corona-bd-live.herokuapp.com
+ * Plugin URI:        https://corona.in.com.bd
  * Description:       This plugin used for get update the coronavirous live update of Bangladesh & all over the world.
- * Version:           1.2.1
+ * Version:           1.3.0
  * Requires at least: 4.0
  * Requires PHP:      5.6
  * Author:            Amdadul Haq
@@ -74,9 +74,9 @@ function cbdl_enToBn($number)
 // BD API is developed by me
 function cbdl_getBNStatsData()
 {
-    $api = 'http://corona-bd-live.herokuapp.com/api/stats';
+    $api = 'https://corona.in.com.bd/api/stats';
     $args = [
-        'timeout' => 60
+        'timeout' => 120
     ];
     $request = wp_remote_get($api, $args);
     $body = wp_remote_retrieve_body($request);
@@ -85,9 +85,9 @@ function cbdl_getBNStatsData()
 
 function cbdl_getBNDistrictsData()
 {
-    $api = 'http://corona-bd-live.herokuapp.com/api/districts';
+    $api = 'https://corona.in.com.bd/api/districts';
     $args = [
-        'timeout' => 60
+        'timeout' => 120
     ];
     $request = wp_remote_get($api, $args);
     $body = wp_remote_retrieve_body($request);
@@ -99,7 +99,7 @@ function cbdl_getWorldData()
 {
     $api = 'https://api.covid19api.com/summary';
     $args = [
-        'timeout' => 60
+        'timeout' => 120
     ];
     $request = wp_remote_get($api, $args);
     $body = wp_remote_retrieve_body($request);

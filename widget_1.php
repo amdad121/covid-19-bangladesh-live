@@ -59,7 +59,9 @@ class cbdl_widget_one extends WP_Widget
             </div>
         </div>
     </div>
-    <div class="sutro"><a target="_blank" href="http://corona-bd-live.herokuapp.com">সূত্র: আইইডিসিআর</a></div>
+    <div class="sutro">
+        সূত্র: <a target="_blank" href="https://corona.in.com.bd">আইইডিসিআর</a>
+    </div>
 </div>
 <?php
         echo $args['after_widget'];

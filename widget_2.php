@@ -41,8 +41,9 @@ class cbdl_widget_two extends WP_Widget
             </div>
         </div>
         <div class="content">
-            <div class="number sutro"><a target="_blank" href="http://corona-bd-live.herokuapp.com">সূত্র:
-                    আইইডিসিআর</a></div>
+            <div class="number sutro">
+                সূত্র: <a target="_blank" href="https://corona.in.com.bd">আইইডিসিআর</a>
+            </div>
         </div>
     </div>
     <div class="body body_world">
@@ -63,8 +64,9 @@ class cbdl_widget_two extends WP_Widget
             </div>
         </div>
         <div class="content">
-            <div class="number sutro"><a target="_blank" href="http://corona-bd-live.herokuapp.com">সূত্র: জনস হপকিন্স
-                    ইউনিভার্সিটি</a></div>
+            <div class="number sutro">
+                সূত্র: <a target="_blank" href="https://corona.in.com.bd">জনস হপকিন্স ইউনিভার্সিটি</a>
+            </div>
         </div>
     </div>
 </div>

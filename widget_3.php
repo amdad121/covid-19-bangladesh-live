@@ -65,8 +65,8 @@ class cbdl_widget_three extends WP_Widget
     </ul>
     <div class="sourcing small" style="text-align: center;">
         ন্যাশনাল কল সেন্টার <strong>৩৩৩</strong> | স্বাস্থ্য বাতায়ন <strong>১৬২৬৩</strong> | আইইডিসিআর
-        <strong>১০৬৫৫</strong> | বিশেষজ্ঞ হেলথ লাইন <strong>০৯৬১১৬৭৭৭৭৭</strong> | <a target="_blank"
-            href="http://corona-bd-live.herokuapp.com">সূত্র - আইইডিসিআর</a>
+        <strong>১০৬৫৫</strong> | বিশেষজ্ঞ হেলথ লাইন <strong>০৯৬১১৬৭৭৭৭৭</strong> | সূত্র - <a target="_blank"
+            href="https://corona.in.com.bd">আইইডিসিআর</a>
     </div>
 </div>
 <?php
