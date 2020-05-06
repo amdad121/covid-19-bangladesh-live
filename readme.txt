@@ -1,6 +1,6 @@
 === Corona Bangladesh Live ===
-Donate link: https://corona.in.com.bd
 Contributors: amdad121
+Donate link: https://corona.in.com.bd
 Tags: covid-19, corona, corona Bangladesh, covid-19 BD, Corona Bangladesh Live
 Requires at least: 4.6
 Tested up to: 5.4
@@ -59,7 +59,7 @@ e.g.
 
 = This plugin show data only Bangladesh? =
 
-No. You will get Bangladesh & hole world update.
+No. You will get Bangladesh & The whole world update.
 
 = What i get from this plugin? =
 
