@@ -72,6 +72,11 @@ You will get Bangladesh all update of Coronavirous.
 3. This screen shot for World.
 
 == Changelog ==
+= 1.4.0 =
+* API Updated.
+* CSS Fixed.
+* Bug fixed.
+
 = 1.3.0 =
 * API Changes.
 * CSS Fixed.

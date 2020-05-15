@@ -3,7 +3,7 @@
  * Plugin Name:       Corona Bangladesh Live
  * Plugin URI:        https://covid.codeofamdad.com
  * Description:       This plugin used for get update the coronavirous live update of Bangladesh & all over the world.
- * Version:           1.3.0
+ * Version:           1.4.0
  * Requires at least: 4.0
  * Requires PHP:      5.6
  * Author:            Amdadul Haq
