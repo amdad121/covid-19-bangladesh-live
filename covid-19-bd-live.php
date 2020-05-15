@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Corona Bangladesh Live
- * Plugin URI:        https://corona.in.com.bd
+ * Plugin URI:        https://covid.codeofamdad.com
  * Description:       This plugin used for get update the coronavirous live update of Bangladesh & all over the world.
  * Version:           1.3.0
  * Requires at least: 4.0
@@ -74,7 +74,7 @@ function cbdl_enToBn($number)
 // BD API is developed by me
 function cbdl_getBNStatsData()
 {
-    $api = 'https://corona.in.com.bd/api/stats';
+    $api = 'https://covid.codeofamdad.com/api/stats';
     $args = [
         'timeout' => 120
     ];
@@ -85,7 +85,7 @@ function cbdl_getBNStatsData()
 
 function cbdl_getBNDistrictsData()
 {
-    $api = 'https://corona.in.com.bd/api/districts';
+    $api = 'https://covid.codeofamdad.com/api/districts';
     $args = [
         'timeout' => 120
     ];

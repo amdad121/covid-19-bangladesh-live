@@ -1,6 +1,6 @@
 === Corona Bangladesh Live ===
 Contributors: amdad121
-Donate link: https://corona.in.com.bd
+Donate link: https://covid.codeofamdad.com
 Tags: covid-19, corona, corona Bangladesh, covid-19 BD, Corona Bangladesh Live
 Requires at least: 4.6
 Tested up to: 5.4
@@ -23,13 +23,13 @@ If this any modification require and if you face any problem please contact with
 ## API - 01
 This is our own API service provider. we have provide our manual input data to public under GNU GENERAL PUBLIC LICENSE.
 
-API: https://corona.in.com.bd/api
+API: https://covid.codeofamdad.com/api
 
-License: https://corona.in.com.bd/api/license
+License: https://covid.codeofamdad.com/api/license
 
-Endpoint: https://corona.in.com.bd
+Endpoint: https://covid.codeofamdad.com
 
-Privacy policy: https://corona.in.com.bd/api/privacy_policy
+Privacy policy: https://covid.codeofamdad.com/api/privacy_policy
 
 ## API - 02
 We have used another API which is "covid19api - A free API for data on the Coronavirus".

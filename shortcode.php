@@ -46,7 +46,7 @@ function cbdl_widget_1()
         </div>
     </div>
     <div class="sutro">
-        সূত্র: <a target="_blank" href="https://corona.in.com.bd">আইইডিসিআর</a>
+        সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
     </div>
 </div>
 <?php
@@ -77,7 +77,7 @@ function cbdl_widget_2()
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://corona.in.com.bd">আইইডিসিআর</a>
+                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
             </div>
         </div>
     </div>
@@ -100,7 +100,7 @@ function cbdl_widget_2()
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://corona.in.com.bd">জনস হপকিন্স ইউনিভার্সিটি</a>
+                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">জনস হপকিন্স ইউনিভার্সিটি</a>
             </div>
         </div>
     </div>
@@ -157,7 +157,7 @@ function cbdl_widget_3()
     <div class="sourcing small" style="text-align: center;">
         ন্যাশনাল কল সেন্টার <strong>৩৩৩</strong> | স্বাস্থ্য বাতায়ন <strong>১৬২৬৩</strong> | আইইডিসিআর
         <strong>১০৬৫৫</strong> | বিশেষজ্ঞ হেলথ লাইন <strong>০৯৬১১৬৭৭৭৭৭</strong> | সূত্র - <a target="_blank"
-            href="https://corona.in.com.bd">আইইডিসিআর</a>
+            href="https://covid.codeofamdad.com">আইইডিসিআর</a>
     </div>
 </div>
 <?php

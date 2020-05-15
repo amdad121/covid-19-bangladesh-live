@@ -60,7 +60,7 @@ class cbdl_widget_one extends WP_Widget
         </div>
     </div>
     <div class="sutro">
-        সূত্র: <a target="_blank" href="https://corona.in.com.bd">আইইডিসিআর</a>
+        সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
     </div>
 </div>
 <?php
