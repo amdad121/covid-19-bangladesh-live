@@ -40,6 +40,11 @@ class cbdl_widget_one extends WP_Widget
             <div id="deaths" class="number death"><?php echo cbdl_enToBn(number_format(cbdl_getBNStatsData()->total->deaths)); ?>
             </div>
         </div>
+        <div class="content">
+            <div class="number sutro">
+                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+            </div>
+        </div>
     </div>
     <div class="body body_world">
         <h3>সর্বশেষ</h3>
@@ -58,9 +63,11 @@ class cbdl_widget_one extends WP_Widget
             <div id="wdeaths" class="number death"><?php echo cbdl_enToBn(number_format(cbdl_getBNStatsData()->last->deaths)); ?>
             </div>
         </div>
-    </div>
-    <div class="sutro">
-        সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+        <div class="content">
+            <div class="number sutro">
+                স্পন্সর: <a target="_blank" href="https://ekotahost.com">একতা হোস্ট</a>
+            </div>
+        </div>
     </div>
 </div>
 <?php
