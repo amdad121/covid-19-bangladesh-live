@@ -26,6 +26,11 @@ function cbdl_widget_1()
             <div id="deaths" class="number death"><?php echo cbdl_enToBn(number_format(cbdl_getBNStatsData()->total->deaths)); ?>
             </div>
         </div>
+        <div class="content">
+            <div class="number sutro">
+                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+            </div>
+        </div>
     </div>
     <div class="body body_world">
         <h3>সর্বশেষ</h3>
@@ -44,9 +49,11 @@ function cbdl_widget_1()
             <div id="wdeaths" class="number death"><?php echo cbdl_enToBn(number_format(cbdl_getBNStatsData()->last->deaths)); ?>
             </div>
         </div>
-    </div>
-    <div class="sutro">
-        সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+        <div class="content">
+            <div class="number sutro">
+                স্পন্সর: <a target="_blank" href="https://ekotahost.com">একতা হোস্ট</a>
+            </div>
+        </div>
     </div>
 </div>
 <?php
@@ -100,7 +107,7 @@ function cbdl_widget_2()
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">জনস হপকিন্স ইউনিভার্সিটি</a>
+                সূত্র: <a target="_blank" href="https://ekotahost.com">জনস হপকিন্স ইউনিভার্সিটি</a>
             </div>
         </div>
     </div>
@@ -114,12 +121,12 @@ function cbdl_widget_3()
     ob_start(); ?>
 <div class="wrap" id="containerElem">
     <div class="columns">
-        <div class="corona-col clogo">
+        <div class="corona-left clogo">
             <div class="virus-logo">
                 <h2><small>বাংলাদেশে</small> <br> করোনাভাইরাস </h2>
             </div>
         </div>
-        <div class="corona-col ">
+        <div class="corona-right">
             <div class="height-100">
                 <div class="cases-count">
                     <div class="total-cases">
@@ -157,7 +164,8 @@ function cbdl_widget_3()
     <div class="sourcing small" style="text-align: center;">
         ন্যাশনাল কল সেন্টার <strong>৩৩৩</strong> | স্বাস্থ্য বাতায়ন <strong>১৬২৬৩</strong> | আইইডিসিআর
         <strong>১০৬৫৫</strong> | বিশেষজ্ঞ হেলথ লাইন <strong>০৯৬১১৬৭৭৭৭৭</strong> | সূত্র - <a target="_blank"
-            href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+            href="https://covid.codeofamdad.com">আইইডিসিআর</a> | স্পন্সর - <a target="_blank"
+            href="https://ekotahost.com">একতা হোস্ট</a>
     </div>
 </div>
 <?php

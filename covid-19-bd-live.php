@@ -3,7 +3,7 @@
  * Plugin Name:       Corona Bangladesh Live
  * Plugin URI:        https://covid.codeofamdad.com
  * Description:       This plugin used for get update the coronavirous live update of Bangladesh & all over the world.
- * Version:           1.4.0
+ * Version:           1.5.0
  * Requires at least: 4.0
  * Requires PHP:      5.6
  * Author:            Amdadul Haq
@@ -74,34 +74,52 @@ function cbdl_enToBn($number)
 // BD API is developed by me
 function cbdl_getBNStatsData()
 {
-    $api = 'https://covid.codeofamdad.com/api/stats';
-    $args = [
-        'timeout' => 120
-    ];
-    $request = wp_remote_get($api, $args);
-    $body = wp_remote_retrieve_body($request);
-    return json_decode($body);
+    $cacheName = (plugin_dir_path(__FILE__) . 'data/stats.json');
+    $ageInSeconds = 3600; // one hour
+    if (!file_exists($cacheName) || time() - filemtime($cacheName) > $ageInSeconds) {
+        $api = 'https://covid.codeofamdad.com/api/stats';
+        $args = [
+            'timeout' => 120
+        ];
+        $request = wp_remote_get($api, $args);
+        $contents = wp_remote_retrieve_body($request);
+        file_put_contents($cacheName, $contents);
+    }
+    $dom = file_get_contents($cacheName);
+    return json_decode($dom);
 }
 
 function cbdl_getBNDistrictsData()
 {
-    $api = 'https://covid.codeofamdad.com/api/districts';
-    $args = [
-        'timeout' => 120
-    ];
-    $request = wp_remote_get($api, $args);
-    $body = wp_remote_retrieve_body($request);
-    return json_decode($body);
+    $cacheName = (plugin_dir_path(__FILE__) . 'data/districts.json');
+    $ageInSeconds = 3600; // one hour
+    if (!file_exists($cacheName) || time() - filemtime($cacheName) > $ageInSeconds) {
+        $api = 'https://covid.codeofamdad.com/api/districts';
+        $args = [
+            'timeout' => 120
+        ];
+        $request = wp_remote_get($api, $args);
+        $contents = wp_remote_retrieve_body($request);
+        file_put_contents($cacheName, $contents);
+    }
+    $dom = file_get_contents($cacheName);
+    return json_decode($dom);
 }
 
 // World API from mathdro.id
 function cbdl_getWorldData()
 {
-    $api = 'https://api.covid19api.com/summary';
-    $args = [
-        'timeout' => 120
-    ];
-    $request = wp_remote_get($api, $args);
-    $body = wp_remote_retrieve_body($request);
-    return json_decode($body);
+    $cacheName = (plugin_dir_path(__FILE__) . 'data/world.json');
+    $ageInSeconds = 3600; // one hour
+    if (!file_exists($cacheName) || time() - filemtime($cacheName) > $ageInSeconds) {
+        $api = 'https://api.covid19api.com/summary';
+        $args = [
+            'timeout' => 120
+        ];
+        $request = wp_remote_get($api, $args);
+        $contents = wp_remote_retrieve_body($request);
+        file_put_contents($cacheName, $contents);
+    }
+    $dom = file_get_contents($cacheName);
+    return json_decode($dom);
 }

@@ -23,12 +23,12 @@ class cbdl_widget_three extends WP_Widget
         } ?>
 <div id="containerElem" class="wrap">
     <div class="columns">
-        <div class="corona-col clogo">
+        <div class="corona-left clogo">
             <div class="virus-logo">
                 <h2><small>বাংলাদেশে</small> <br> করোনাভাইরাস </h2>
             </div>
         </div>
-        <div class="corona-col ">
+        <div class="corona-right">
             <div class="height-100">
                 <div class="cases-count">
                     <div class="total-cases">
