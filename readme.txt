@@ -18,7 +18,7 @@ There are three shortcode here. Here are Example of shortcode. [cbdl_widget_1], 
 
 If this any modification require and if you face any problem please contact with us via email : amdadulhaq781@gmail.com
 
-## CURRENT API INFOMATION ##
+## CURRENT API INFORMATION ##
 
 ## API - 01
 This is our own API service provider. we have provide our manual input data to public under GNU GENERAL PUBLIC LICENSE.
@@ -52,7 +52,7 @@ e.g.
 1. Upload the plugin files to the `/wp-content/plugins/covid-19-bd-live` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 1. Go to Appearance->Widget & see the name of Corona Related Widget.
-1. Now just drag & drop any sidebar & you have just done the activiction process.
+1. Now just drag & drop any sidebar & you have just done the activation process.
 
 
 == Frequently Asked Questions ==
@@ -63,7 +63,7 @@ No. You will get Bangladesh & The whole world update.
 
 = What i get from this plugin? =
 
-You will get Bangladesh all update of Coronavirous.
+You will get Bangladesh all update of Coronavirus.
 
 == Screenshots ==
 
