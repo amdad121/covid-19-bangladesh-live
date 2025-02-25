@@ -72,6 +72,10 @@ You will get Bangladesh all update of Coronavirous.
 3. This screen shot for World.
 
 == Changelog ==
+= 1.5.1 =
+* Bug fix
+
+== Changelog ==
 = 1.5.0 =
 * Data Cached
 * 200x Faster from previous
