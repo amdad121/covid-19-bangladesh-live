@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:       Corona Bangladesh Live
- * Plugin URI:        https://covid.codeofamdad.com
+ * Plugin URI:        https://codeappear.com
  * Description:       This plugin used for get update the coronavirous live update of Bangladesh & all over the world.
- * Version:           1.5.1
- * Requires at least: 4.0
- * Requires PHP:      5.6
+ * Version:           1.6.0
+ * Requires at least: 6.1
+ * Requires PHP:      7.4
  * Author:            Amdadul Haq
- * Author URI:        https://codeofamdad.com
+ * Author URI:        https://amdadulhaq.com
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
@@ -77,7 +77,7 @@ function cbdl_getBNStatsData()
     $cacheName = (plugin_dir_path(__FILE__) . 'data/stats.json');
     $ageInSeconds = 3600; // one hour
     if (!file_exists($cacheName) || time() - filemtime($cacheName) > $ageInSeconds) {
-        $api = 'https://covid.codeofamdad.com/api/stats';
+        $api = 'https://covid.amdadulhaq.com/api/stats';
         $args = [
             'timeout' => 120
         ];
@@ -94,7 +94,7 @@ function cbdl_getBNDistrictsData()
     $cacheName = (plugin_dir_path(__FILE__) . 'data/districts.json');
     $ageInSeconds = 3600; // one hour
     if (!file_exists($cacheName) || time() - filemtime($cacheName) > $ageInSeconds) {
-        $api = 'https://covid.codeofamdad.com/api/districts';
+        $api = 'https://covid.amdadulhaq.com/api/districts';
         $args = [
             'timeout' => 120
         ];
@@ -112,7 +112,7 @@ function cbdl_getWorldData()
     $cacheName = (plugin_dir_path(__FILE__) . 'data/world.json');
     $ageInSeconds = 3600; // one hour
     if (!file_exists($cacheName) || time() - filemtime($cacheName) > $ageInSeconds) {
-        $api = 'https://api.covid19api.com/summary';
+        $api = 'https://covid.amdadulhaq.com/summary';
         $args = [
             'timeout' => 120
         ];

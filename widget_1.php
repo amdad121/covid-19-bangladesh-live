@@ -42,7 +42,7 @@ class cbdl_widget_one extends WP_Widget
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+                সূত্র: <a target="_blank" href="https://amdadulhaq.com">আইইডিসিআর</a>
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@ class cbdl_widget_one extends WP_Widget
         </div>
         <div class="content">
             <div class="number sutro">
-                স্পন্সর: <a target="_blank" href="https://ekotahost.com">একতা হোস্ট</a>
+                স্পন্সর: <a target="_blank" href="https://codeappear.com">কোড এপিআর</a>
             </div>
         </div>
     </div>

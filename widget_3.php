@@ -66,8 +66,8 @@ class cbdl_widget_three extends WP_Widget
     <div class="sourcing small" style="text-align: center;">
         ন্যাশনাল কল সেন্টার <strong>৩৩৩</strong> | স্বাস্থ্য বাতায়ন <strong>১৬২৬৩</strong> | আইইডিসিআর
         <strong>১০৬৫৫</strong> | বিশেষজ্ঞ হেলথ লাইন <strong>০৯৬১১৬৭৭৭৭৭</strong> | সূত্র - <a target="_blank"
-            href="https://covid.codeofamdad.com">আইইডিসিআর</a> | স্পন্সর - <a target="_blank"
-            href="https://ekotahost.com">একতা হোস্ট</a>
+            href="https://amdadulhaq.com">আইইডিসিআর</a> | স্পন্সর - <a target="_blank"
+            href="https://codeappear.com">কোড এপিআর</a>
     </div>
 </div>
 <?php

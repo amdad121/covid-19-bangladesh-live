@@ -1,11 +1,11 @@
 === Corona Bangladesh Live ===
 Contributors: amdad121
-Donate link: https://covid.codeofamdad.com
+Donate link: https://amdadulhaq.com
 Tags: covid-19, corona, corona Bangladesh, covid-19 BD, Corona Bangladesh Live
-Requires at least: 4.6
-Tested up to: 5.4
-Stable tag: 5.4
-Requires PHP: 5.6
+Requires at least: 6.1
+Tested up to: 6.7
+Stable tag: 1.6.0
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,13 +23,13 @@ If this any modification require and if you face any problem please contact with
 ## API - 01
 This is our own API service provider. we have provide our manual input data to public under GNU GENERAL PUBLIC LICENSE.
 
-API: https://covid.codeofamdad.com/api
+API: https://covid.amdadulhaq.com/api
 
-License: https://covid.codeofamdad.com/api/license
+License: https://covid.amdadulhaq.com/api/license
 
-Endpoint: https://covid.codeofamdad.com
+Endpoint: https://covid.amdadulhaq.com
 
-Privacy policy: https://covid.codeofamdad.com/api/privacy_policy
+Privacy policy: https://covid.amdadulhaq.com/api/privacy_policy
 
 ## API - 02
 We have used another API which is "covid19api - A free API for data on the Coronavirus".
@@ -70,6 +70,11 @@ You will get Bangladesh all update of Coronavirus.
 1. This screen shot for Bangladesh with Districts Data.
 2. This screen shot for Bangladesh.
 3. This screen shot for World.
+
+== Changelog ==
+= 1.6.0 =
+* Bump WordPress version
+* Bug fix
 
 == Changelog ==
 = 1.5.1 =

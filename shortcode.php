@@ -28,7 +28,7 @@ function cbdl_widget_1()
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+                সূত্র: <a target="_blank" href="https://amdadulhaq.com">আইইডিসিআর</a>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@ function cbdl_widget_1()
         </div>
         <div class="content">
             <div class="number sutro">
-                স্পন্সর: <a target="_blank" href="https://ekotahost.com">একতা হোস্ট</a>
+                স্পন্সর: <a target="_blank" href="https://codeappear.com">কোড এপিআর</a>
             </div>
         </div>
     </div>
@@ -84,7 +84,7 @@ function cbdl_widget_2()
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+                সূত্র: <a target="_blank" href="https://amdadulhaq.com">আইইডিসিআর</a>
             </div>
         </div>
     </div>
@@ -107,7 +107,7 @@ function cbdl_widget_2()
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://ekotahost.com">জনস হপকিন্স ইউনিভার্সিটি</a>
+                সূত্র: <a target="_blank" href="https://codeappear.com">জনস হপকিন্স ইউনিভার্সিটি</a>
             </div>
         </div>
     </div>
@@ -164,8 +164,8 @@ function cbdl_widget_3()
     <div class="sourcing small" style="text-align: center;">
         ন্যাশনাল কল সেন্টার <strong>৩৩৩</strong> | স্বাস্থ্য বাতায়ন <strong>১৬২৬৩</strong> | আইইডিসিআর
         <strong>১০৬৫৫</strong> | বিশেষজ্ঞ হেলথ লাইন <strong>০৯৬১১৬৭৭৭৭৭</strong> | সূত্র - <a target="_blank"
-            href="https://covid.codeofamdad.com">আইইডিসিআর</a> | স্পন্সর - <a target="_blank"
-            href="https://ekotahost.com">একতা হোস্ট</a>
+            href="https://amdadulhaq.com">আইইডিসিআর</a> | স্পন্সর - <a target="_blank"
+            href="https://codeappear.com">কোড এপিআর</a>
     </div>
 </div>
 <?php

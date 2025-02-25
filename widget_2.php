@@ -42,7 +42,7 @@ class cbdl_widget_two extends WP_Widget
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://covid.codeofamdad.com">আইইডিসিআর</a>
+                সূত্র: <a target="_blank" href="https://amdadulhaq.com">আইইডিসিআর</a>
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@ class cbdl_widget_two extends WP_Widget
         </div>
         <div class="content">
             <div class="number sutro">
-                সূত্র: <a target="_blank" href="https://ekotahost.com">জনস হপকিন্স ইউনিভার্সিটি</a>
+                সূত্র: <a target="_blank" href="https://codeappear.com">জনস হপকিন্স ইউনিভার্সিটি</a>
             </div>
         </div>
     </div>
