@@ -74,7 +74,6 @@ You will get Bangladesh all update of Coronavirus.
 == Changelog ==
 = 1.5.1 =
 * Bug fix
-* Update
 
 == Changelog ==
 = 1.5.0 =
